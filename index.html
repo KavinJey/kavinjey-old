@@ -25,7 +25,7 @@
 
 <div class="container-fluid">
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <a href="index.html">
@@ -33,9 +33,9 @@
         </a>
         </div>
         <ul class="nav navbar-nav navbar-text navbar-right ">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
   </nav>
@@ -44,24 +44,23 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3">
-        <img width="auto" height="auto" src="images/kavin.jpg">
+      <div class="col-md-4 spacing">
+        <img width="100%" height="auto" src="images/kavin.jpg">
       </div>
       <div class="col-md-8">
-        <p id="bio"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <p id="bio"> Kavin Jey is a highschool student studying towards a computer science degree. With many projects under his belt, he is always looking for ways to better his work, and continue his learning experience. Moreover, Kavin also has a thing for photography. His portfolio is constantly being updated and can be found <a class="text-link" href="projects.html"> here. </a> </p>
       </div>
     </div>
-
   </div>
 
 <div class="container">
  <div class="row">
 
   <div class="col-md-6">
-    <a type="button" id="left" class="btn btn-default btn-block " href="#"> Photography </a>
+    <a type="button" id="left" class="btn btn-default btn-block button" href="photography.html"> Photography </a>
   </div>
   <div class="col-md-6">
-    <a type="button" id="right" class="btn btn-default btn-block" href="#"> Projects </a>
+    <a type="button" id="right" class="btn btn-default btn-block button" href="projects.html"> Projects </a>
   </div>
 </div>
 
@@ -69,22 +68,46 @@
 
 
 
-<div class="container-fluid">
-    <div class="row extendfull footer">
-      <div class="col-md-12">
-       <h1 style="color: #FFF"> Hello world </h1>
+<nav class="navbar navbar-default navbar-static-bottom">
+  <div class="container-fluid">
+    <div class="row">
+    <ul id="spacing" class="list-inline navbar-right">
+      <li> <a class="btn btn-lg" href="https://twitter.com/KavinJey">
+        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i> </a>
+      </li>
+      <li>
+        <a class="btn btn-lg" href="https://github.com/Rurikari">
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i> </a>
+      </li>
+      <li>
+        <a class="btn btn-lg" href="projects.html">
+          <i class="fa fa-wrench fa-2x" aria-hidden="true"> </i> </a>
+      </li>
+
+      <li>
+        <a class="btn btn-lg" href="photography.html">
+          <i class="fa fa-camera-retro fa-2x" aria-hidden="true"></i> </a>
+      </li>
+    </ul>
+  </div>
+  <div class="row">
+    <ul  id="spacing-text" class="list-inline navbar-text navbar-right">
+      <li> Twitter </li>
+      <li> Github </li>
+      <li> Projects </li>
+      <li> Photography </li>
+
+      <ul>
       </div>
-    </div>
   </div>
+</nav>
 
 
 </div>
+
+<script src="https://use.fontawesome.com/251b350ed8.js"></script>
 
 </body>
-
-
-
-
 
 
 </html>

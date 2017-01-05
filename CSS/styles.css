@@ -1,7 +1,16 @@
 body {
-  background: #DBDBDB;
+  background: #FFF;
   font-family: 'Source Code Pro', monospace;
+  text-align: justify;
+  color: #000;
 
+}
+
+a {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  background-color: black;
+  color: #FFF;
 }
 
 .navbar-brand {
@@ -80,7 +89,7 @@ body {
   }
 }
 
-.btn {
+.button {
   font-size: 3em;
   margin-top: 30%;
   margin-bottom: 30%;
@@ -90,7 +99,6 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
 
-
 }
 
 .btn-default {
@@ -98,17 +106,39 @@ body {
     padding-top: 18%;
 }
 
-.fade {
-  color: #a164b8;
+.spacing {
+  margin-top: 10%;
 
 }
 
-.footer {
-  background-color: #000;
-  
+.minor-spacing {
+  margin-top: 5%;
+
 }
 
+.image {
+  border: 3px solid white;
 
+}
+
+.box {
+  border: 1px solid black;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+.text-link {
+  background-color: #FFF;
+  color: #000;
+
+}
+
+.text-link:hover {
+  color: #DBDBDB;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
 
 #right {
   background-color: black;
@@ -134,5 +164,16 @@ body {
 }
 
 #bio {
-  padding-top: 10%;
+  padding-top: 20%;
+  font-size: 1.8em;
+  text-align:
+}
+
+#spacing {
+  margin-bottom: -1%;
+  margin-right: 1%;
+}
+
+#spacing-text {
+  margin-right: 1.3%;
 }
