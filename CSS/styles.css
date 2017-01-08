@@ -111,6 +111,16 @@ a {
 
 }
 
+.spacing2 {
+  margin-top: 25%;
+
+}
+
+.reverse-spacing {
+  margin-top: 5%;
+  margin-bottom:  10%;
+}
+
 .minor-spacing {
   margin-top: 5%;
 
@@ -140,6 +150,27 @@ a {
   -moz-transition: all 0.3s ease-in-out;
 }
 
+
+.carousel {
+    margin-bottom: ;
+    padding: 0 40px 30px 40px;
+}
+
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -5px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #DBDBDB;
+}
+.carousel-indicators .active {
+background: #000;
+}
+
 #right {
   background-color: black;
   color: #FFF;
@@ -166,7 +197,7 @@ a {
 #bio {
   padding-top: 20%;
   font-size: 1.8em;
-  text-align:
+  text-align: justify;
 }
 
 #spacing {
