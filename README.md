@@ -1,4 +1,4 @@
-# rurikari.xyz
+# kavin jey old
 Personal Website
 
 Site intially built to display my projects and portfolio. Didn't like the way it looks so I revamped it.
